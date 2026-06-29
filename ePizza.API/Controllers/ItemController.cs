@@ -23,7 +23,7 @@ namespace ePizza.API.Controllers
 
             return Ok(items);
         }
-
+        // get item by id
         [HttpGet]
         [Route("{id}")]
         public async Task<IActionResult> Get(int id)
