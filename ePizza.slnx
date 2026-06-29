@@ -1,0 +1,19 @@
+<Solution>
+  <Folder Name="/API/" />
+  <Folder Name="/API/Application/">
+    <Project Path="E:/ePiizzaRanjan_29June/ePizza/ePizza.Application/ePizza.Application.csproj" />
+  </Folder>
+  <Folder Name="/API/Domain/">
+    <Project Path="E:/ePiizzaRanjan_29June/ePizza/ePizza.Domain/ePizza.Domain.csproj" />
+  </Folder>
+  <Folder Name="/API/Infrastructure/">
+    <Project Path="E:/ePiizzaRanjan_29June/ePizza/ePizza.Infrastructure/ePizza.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/API/Presentation/">
+    <Project Path="E:/ePiizzaRanjan_29June/ePizza/ePizza.API/ePizza.API.csproj" />
+  </Folder>
+  <Folder Name="/UI/">
+    <Project Path="E:/ePiizzaRanjan_29June/ePizza/ePizza.UI/ePizza.UI.csproj" />
+  </Folder>
+  <Folder Name="/UnitTest/" />
+</Solution>
