@@ -9,7 +9,9 @@ namespace ePizza.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services) 
         {
-        services.AddScoped<IItemService,ItemService>();
+            services.AddScoped<IItemService,ItemService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ITokenGeneratorService, TokenGeneratorService>();
             return services;
         }
     }

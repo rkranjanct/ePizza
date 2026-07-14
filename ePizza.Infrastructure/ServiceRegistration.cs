@@ -20,6 +20,7 @@ namespace ePizza.Infrastructure
                 options.UseSqlServer(connectionString);
             });
             services.AddScoped<IItemRepository, ItemRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
 
             return services;
         

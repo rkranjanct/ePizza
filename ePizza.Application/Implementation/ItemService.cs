@@ -1,4 +1,4 @@
-﻿using ePizza.Application.DTOs;
+﻿using ePizza.Application.DTOs.Response;
 using ePizza.Application.Interfaces;
 using ePizza.Domain.Interfaces;
 using System;

@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ePizza.Application.DTOs
+﻿namespace ePizza.UI.Models.ResponseModel
 {
-    public class ItemResponseDto
+    public class ResponseModelDto
     {
         public int Id { get; set; }
 
